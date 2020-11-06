@@ -26,6 +26,8 @@ namespace kockaPokerFrm
             ember = new Dobas();
             lblGepreszeredmeny.Text = "";
             lblEmberreszeredmeny.Text = "";
+            lblEmberEredmeny.Text = "";
+            lblGepEredmeny.Text = "";
         }
 
         private void kepElhelyez(PictureBox pb, int szam)
@@ -73,10 +75,14 @@ namespace kockaPokerFrm
             if (gep.Pont > ember.Pont)
             {
                 MessageBox.Show("Gép Nyert", "Eredmény", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                gep.Nyert++;
+                lblGepEredmeny.Text = gep.Nyert.ToString();
             }
             else if (ember.Pont > gep.Pont)
             {
                 MessageBox.Show("Ember Nyert", "Eredmény", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ember.Nyert++;
+                lblEmberEredmeny.Text = ember.Nyert.ToString();
             }
             else
             {

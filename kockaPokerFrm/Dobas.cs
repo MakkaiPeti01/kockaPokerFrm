@@ -34,9 +34,10 @@ namespace kockaPokerFrm
                 return pont;
             }
         }
+        public int Nyert { get; set; }
         public Dobas()
         {
-
+            Nyert = 0;
         }
         public Dobas(int k1, int k2, int k3, int k4, int k5)
         {

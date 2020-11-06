@@ -202,9 +202,9 @@
             this.lblGepEredmeny.ForeColor = System.Drawing.Color.Red;
             this.lblGepEredmeny.Location = new System.Drawing.Point(95, 293);
             this.lblGepEredmeny.Name = "lblGepEredmeny";
-            this.lblGepEredmeny.Size = new System.Drawing.Size(70, 25);
+            this.lblGepEredmeny.Size = new System.Drawing.Size(59, 25);
             this.lblGepEredmeny.TabIndex = 15;
-            this.lblGepEredmeny.Text = "label3";
+            this.lblGepEredmeny.Text = "adsa";
             // 
             // lblEmberEredmeny
             // 
